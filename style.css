@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__burger__logo{
+    display: none;
+}
+
+:root{
+    --colorDark:Black;
+    --colorLight:yellow;
+}
+
+
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 168px;
+    padding-right: 165px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+@media (max-width:430px) {
+    .header__burger__logo{
+        display: block;
+    }
+
+    .header__right{
+        display: none;
+    }
+
+    .header__navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
